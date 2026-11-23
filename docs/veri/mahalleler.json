@@ -1,0 +1,23 @@
+[
+ {
+  "dosya": "cukurova_beyazevler.json",
+  "mahalle": "Beyazevler",
+  "ilce": "Çukurova",
+  "sokak_km": 24.32,
+  "rota_km": 35.64
+ },
+ {
+  "dosya": "cukurova_guzelyali.json",
+  "mahalle": "Güzelyalı",
+  "ilce": "Çukurova",
+  "sokak_km": 68.81,
+  "rota_km": 88.19
+ },
+ {
+  "dosya": "seyhan_resatbey.json",
+  "mahalle": "Reşatbey",
+  "ilce": "Seyhan",
+  "sokak_km": 20.36,
+  "rota_km": 30.08
+ }
+]

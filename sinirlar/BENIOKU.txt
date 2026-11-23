@@ -1,0 +1,7 @@
+Elle çizilmiş mahalle sınırları bu klasöre konur.
+
+Dosya adı: <ilce>_<mahalle>.geojson  (Türkçe karakter yok, küçük harf, boşluk yerine _)
+Örnek    : cukurova_beyazevler.geojson , seyhan_resatbey.geojson
+
+hazirla.py bu klasörde ilgili dosyayı bulursa OSM sınırı yerine onu kullanır.
+Çizim: geojson.io -> çokgen aracı -> Save -> GeoJSON

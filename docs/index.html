@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#1b2430">
+  <title>Ceryancı Hayratı · Aydınlatma Rota</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="harita"></div>
+
+  <div id="ust">
+    <select id="mahalleSec" aria-label="Mahalle seç">
+      <option value="">Mahalle seç…</option>
+    </select>
+  </div>
+
+  <div id="mesaj" class="gizli"></div>
+
+  <div id="panel" class="gizli">
+    <div id="bilgiBaslik"></div>
+    <div id="bilgiSatir"></div>
+
+    <div id="ilerleme">
+      <div id="cubuk"><i id="cubukDolu"></i></div>
+      <span id="ilerlemeMetin"></span>
+    </div>
+    <div id="siradaki"></div>
+    <div id="durum"></div>
+
+    <div class="butonlar">
+      <button id="baslaBtn" class="ana">▶ Başla</button>
+      <button id="ortalaBtn" title="Konumuma git">📍</button>
+      <button id="menuBtn" title="Diğer">⋯</button>
+    </div>
+
+    <div id="menu" class="gizli">
+      <button id="disaBtn">Dışa aktar</button>
+      <button id="iceBtn">İçe aktar</button>
+      <button id="sifirlaBtn" class="tehlike">Sıfırla</button>
+      <input type="file" id="iceDosya" accept=".json,application/json" hidden>
+    </div>
+
+    <div class="lejant">
+      <span><i class="l-zorunlu"></i>Gezilecek</span>
+      <span><i class="l-bos"></i>Boş geçiş</span>
+      <span><i class="l-gezildi"></i>Gezildi</span>
+      <span><i class="l-siradaki"></i>Sıradaki</span>
+      <span><i class="l-sinir"></i>Sınır</span>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
